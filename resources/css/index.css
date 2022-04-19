@@ -1,0 +1,39 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    padding: 10px;
+    line-height: 2;
+}
+
+/*header styling*/
+header {
+    height: 69px;
+    display: inline-flex;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+}
+header img {
+    justify-content: flex-start;
+    height: 50px;
+}
+
+header nav {
+    justify-content: flex-end;
+}
+
+/*mission section*/
+
+
+/*footer sections*/
+#contact {
+    text-align: center;
+}
+
+#copyright {
+    margin: 20px;
+    text-align: left;
+}
