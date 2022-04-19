@@ -13,26 +13,75 @@ body {
 header {
     height: 69px;
     width: 100%;
-    display: inline-flex;
+    display: fixed;
     align-items: center;
     border-bottom: 1px solid seashell;
 }
 header img {
-    justify-content: flex-start;
+    text-align: left;
     height: 50px;
 }
 
-header nav {
-    justify-content: flex-end;
+header nav li{
+    text-align: right;
     display: inline;
 }
 
-/*mission section*/
+h1 {
+    font-weight: bold;
+}
 
+h2 {
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: bold;
+}
+/*mission section*/
+#mission {
+    background-image: url("./../images/img-mission-background.webp");
+    display: flex;
+    height: 700px;
+}
+
+/*featured-tea section*/
+#featured-tea {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+}
+
+#featured-tea div {
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+#featured-tea div img {
+    min-width: 300px;
+    min-height: 200px;
+}
+
+/*locations sections*/
+#locations {
+    background-image: url("./../images/img-locations-background.jpg");
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+}
+
+#locations div{
+    align-items: center;
+    justify-content: center;
+    margin: 15px 20px 20px 20px;
+    min-height: 300px;
+    min-width: 300px;
+}
 
 /*footer sections*/
 #contact {
     text-align: center;
+    height: 200px;
 }
 
 #copyright {
