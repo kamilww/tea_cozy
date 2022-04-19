@@ -12,6 +12,7 @@ body {
 /*header styling*/
 header {
     height: 69px;
+    width: 100%;
     display: inline-flex;
     align-items: center;
     border-bottom: 1px solid seashell;
