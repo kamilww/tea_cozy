@@ -4,7 +4,6 @@ body {
     color: seashell;
     background-color: black;
     opacity: 0.9;
-    text-align: center;
     padding: 10px;
     line-height: 2;
 }
@@ -13,8 +12,8 @@ body {
 header {
     height: 69px;
     width: 100%;
-    display: fixed;
     border-bottom: 1px solid seashell;
+    text-align: left;
 }
 header img {
     text-align: left;
@@ -43,11 +42,11 @@ h3 {
     height: 700px;
     display: flex;
     margin: 40px;
+    justify-content: center;
+    align-content: center;
 }
 
 #mission div {
-    justify-content: center;
-    align-content: center;
     width: 100%
 }
 
@@ -75,11 +74,11 @@ h3 {
     flex-wrap: wrap;
     height: 500px;
     margin: 40px;
+    align-content: center;
+    justify-content: center;
 }
 
 #locations div{
-    align-content: center;
-    justify-content: center;
     margin: 15px 20px 20px 20px;
     height: 300px;
     width: 300px;
