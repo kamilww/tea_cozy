@@ -14,7 +14,6 @@ header {
     height: 69px;
     width: 100%;
     display: fixed;
-    align-items: center;
     border-bottom: 1px solid seashell;
 }
 header img {
@@ -41,8 +40,15 @@ h3 {
 /*mission section*/
 #mission {
     background-image: url("./../images/img-mission-background.webp");
-    display: flex;
     height: 700px;
+    display: flex;
+    margin: 40px;
+}
+
+#mission div {
+    justify-content: center;
+    align-content: center;
+    width: 100%
 }
 
 /*featured-tea section*/
@@ -68,14 +74,16 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     height: 500px;
+    margin: 40px;
 }
 
 #locations div{
-    align-items: center;
+    align-content: center;
     justify-content: center;
     margin: 15px 20px 20px 20px;
-    min-height: 300px;
-    min-width: 300px;
+    height: 300px;
+    width: 300px;
+    background-color: black;
 }
 
 /*footer sections*/
