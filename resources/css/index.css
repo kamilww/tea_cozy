@@ -42,18 +42,19 @@ h3 {
     background-image: url("./../images/img-mission-background.webp");
     height: 700px;
     margin: 40px;
-    vertical-align: middle;
-    text-align: center;
+    width: 1200px;
 }
 
 #mission div {
     width: 100%;
     background-color: black;
+    vertical-align: middle;
+    text-align: center;
 }
 
 /*featured-tea section*/
 #featured-tea {
-    width: 1200px;
+    width: 1000px;
 }
 
 #featured-tea .flex-box {
@@ -61,8 +62,9 @@ h3 {
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
+    
 }
-#featured-tea div {
+#featured-tea .flex-box div {
     
     margin: 20px;
     text-align: center;
@@ -86,7 +88,7 @@ h3 {
     justify-content: center;
 }
 
-#locations div{
+#locations .flex-box div{
     margin: 15px 20px 20px 20px;
     max-height: 300px;
     max-width: 300px;
