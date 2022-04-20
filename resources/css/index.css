@@ -14,6 +14,7 @@ header {
     width: 100%;
     border-bottom: 1px solid seashell;
     text-align: left;
+    display: inline;
 }
 header img {
     text-align: left;
@@ -42,7 +43,7 @@ h3 {
     background-image: url("./../images/img-mission-background.webp");
     height: 700px;
     margin: 40px;
-    width: 1200px;
+    max-width: 1200px;
 }
 
 #mission div {
@@ -79,6 +80,7 @@ h3 {
     background-image: url("./../images/img-locations-background.jpg");
     height: 500px;
     margin: 40px;
+    max-width: 1200px;
 }
 
 #locations .flex-box {
