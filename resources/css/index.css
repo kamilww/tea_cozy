@@ -7,17 +7,17 @@ body {
     line-height: 2;
     text-align: center;
 }
-#main-flex-box {
-    /*justify-content: center;
+/*#main-flex-box {
+    justify-content: center;
     display: flex;
     flex-wrap: wrap;
     overflow: scroll;
     max-width: 1300px;
-    column-count: 1;*/
+    column-count: 1;
     text-align: center;
     width: 100%
 
-}
+}*/
 
 h1 {
     font-weight: bold;
@@ -104,6 +104,7 @@ header nav li{
     display: flex;
     align-content: center;
     justify-content: center;
+    z-index: 1;
 }
 #locations .flexbox div{
     margin: 15px 20px 20px 20px;
