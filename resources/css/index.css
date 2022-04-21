@@ -6,27 +6,14 @@ body {
     opacity: 0.9;
     line-height: 2;
     text-align: center;
+}
+#main-flex-box {
+    justify-content: center;
     display: flex;
     flex-wrap: wrap;
     overflow: scroll;
     max-width: 1280px;
     column-count: 1;
-}
-
-/*header styling*/
-header {
-    height: 69px;
-    width: 100%;
-    border-bottom: 1px solid seashell;
-    display: flex;
-}
-header img {
-    float: left;
-    height: 50px;
-}
-
-header nav li{
-    float: right;
 }
 
 h1 {
@@ -40,12 +27,30 @@ h2 {
 h3 {
     font-weight: bold;
 }
+
+/*header styling*/
+header {
+    height: 69px;
+    min-width: 100%;
+    border-bottom: 1px solid seashell;
+}
+header img {
+    float: inline-start;
+    height: 50px;
+    display: inline;
+}
+
+header nav li{
+    float: inline-end;
+    display: inline;
+}
+
 /*mission section*/
 #mission {
     background-image: url("./../images/img-mission-background.webp");
-    min-height: 700px;
+    max-height: 700px;
     margin: 40px;
-    min-width: 1200px;
+    max-width: 1200px;
     display: flex;
     align-content: center;
     justify-content: center;
@@ -54,20 +59,22 @@ h3 {
 #mission div {
     width: 100%;
     background-color: black;
-    vertical-align: middle;
+    max-height: fit-content;
 }
 
 /*featured-tea section*/
 #featured-tea {
     width: 1000px;
+}
+
+#featured-tea .flex-box {
+    max-width: 1000px;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
 }
-
-#featured-tea div {
-    
+#featured-tea .flex-box div {
     margin: 20px;
     text-align: center;
 }
@@ -79,16 +86,20 @@ h3 {
 /*locations sections*/
 #locations {
     background-image: url("./../images/img-locations-background.jpg");
-    min-height: 500px;
+    max-height: 500px;
     margin: 40px;
-    min-width: 1200px;
+    max-width: 1200px;
+}
+
+#locations .flexbox {
+    max-height: 500px;
+    max-width: 1200px;
     display: flex;
-    flex-wrap: wrap-reverse;
+    flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
 }
-
-#locations div{
+#locations .flexbox div{
     margin: 15px 20px 20px 20px;
     max-height: 300px;
     max-width: 300px;
