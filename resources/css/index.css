@@ -51,8 +51,11 @@ header nav li{
     max-height: 700px;
     margin: 40px;
     max-width: 1200px;
-    vertical-align: middle;
-    z-index: 1;
+    min-height: 700px;
+    min-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #mission div {
@@ -101,6 +104,8 @@ header nav li{
     margin: 15px 20px 20px 20px;
     max-height: 300px;
     max-width: 300px;
+    min-height: 300px;
+    min-width: 300px;
     background-color: black;
     text-align: center;
 }
