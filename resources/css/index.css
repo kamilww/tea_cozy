@@ -8,12 +8,13 @@ body {
     text-align: center;
 }
 #main-flex-box {
-    justify-content: center;
+    /*justify-content: center;
     display: flex;
     flex-wrap: wrap;
     overflow: scroll;
     max-width: 1300px;
-    column-count: 1;
+    column-count: 1;*/
+    text-align: center;
 }
 
 h1 {
