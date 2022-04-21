@@ -6,6 +6,7 @@ body {
     opacity: 0.9;
     line-height: 2;
     text-align: center;
+    display: flex;
 }
 
 /*header styling*/
@@ -13,17 +14,16 @@ header {
     height: 69px;
     width: 100%;
     border-bottom: 1px solid seashell;
-    text-align: left;
-    display: inline;
+    display: flex;
 }
 header img {
-    text-align: left;
+    float: left;
     height: 50px;
     display: inline;
 }
 
 header nav li{
-    text-align: right;
+    float: right;
     display: inline;
 }
 
@@ -41,31 +41,27 @@ h3 {
 /*mission section*/
 #mission {
     background-image: url("./../images/img-mission-background.webp");
-    height: 700px;
+    min-height: 700px;
     margin: 40px;
-    max-width: 1200px;
-}
+    min-width: 1200px;
+    display: flex;
 
 #mission div {
     width: 100%;
     background-color: black;
     vertical-align: middle;
-    text-align: center;
 }
 
 /*featured-tea section*/
 #featured-tea {
     width: 1000px;
-}
-
-#featured-tea .flex-box {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
-    
 }
-#featured-tea .flex-box div {
+
+#featured-tea div {
     
     margin: 20px;
     text-align: center;
@@ -78,19 +74,16 @@ h3 {
 /*locations sections*/
 #locations {
     background-image: url("./../images/img-locations-background.jpg");
-    height: 500px;
+    min-height: 500px;
     margin: 40px;
-    max-width: 1200px;
-}
-
-#locations .flex-box {
+    min-width: 1200px;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     align-content: center;
     justify-content: center;
 }
 
-#locations .flex-box div{
+#locations div{
     margin: 15px 20px 20px 20px;
     max-height: 300px;
     max-width: 300px;
