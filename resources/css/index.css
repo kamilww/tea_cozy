@@ -8,6 +8,9 @@ body {
     text-align: center;
     display: flex;
     flex-wrap: wrap;
+    overflow: scroll;
+    max-width: 1280px;
+    column-count: 1;
 }
 
 /*header styling*/
@@ -20,12 +23,10 @@ header {
 header img {
     float: left;
     height: 50px;
-    display: inline;
 }
 
 header nav li{
     float: right;
-    display: inline;
 }
 
 h1 {
