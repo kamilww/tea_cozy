@@ -7,17 +7,11 @@ body {
     line-height: 2;
     text-align: center;
 }
-/*#main-flex-box {
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
-    overflow: scroll;
-    max-width: 1300px;
-    column-count: 1;
+.main-box {
     text-align: center;
     width: 100%
 
-}*/
+}
 
 h1 {
     font-weight: bold;
@@ -73,16 +67,14 @@ header nav li{
 /*featured-tea section*/
 #featured-tea {
     width: 1000px;
-}
-
-#featured-tea .flex-box {
     background-size: cover;
-    max-width: 1000px;
+    min-width: 1000px;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
 }
+
 #featured-tea .flex-box div {
     margin: 20px;
     text-align: center;
@@ -97,7 +89,7 @@ header nav li{
     text-align: center;
 }
 
-#locations .flexbox {
+#locations .content {
     background-image: url("./../images/img-locations-background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -108,11 +100,8 @@ header nav li{
     justify-content: space-around;
 }
 #locations .flexbox div{
-    margin: 15px 20px 20px 20px;
-    min-height: 300px;
     min-width: 300px;
     background-color: black;
-    text-align: center;
 }
 
 /*footer sections*/
