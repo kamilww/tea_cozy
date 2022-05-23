@@ -66,15 +66,17 @@ header nav li{
 
 /*featured-tea section*/
 #featured-tea {
-    background-size: cover;
+    text-align: center;
+}
+
+#featured-tea .content {
     min-width: 1000px;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
 }
-
-#featured-tea .flex-box div {
+#featured-tea .content div {
     margin: 20px;
     text-align: center;
 }
@@ -97,7 +99,7 @@ header nav li{
     display: flex;
     justify-content: space-around;
 }
-#locations .flexbox div{
+#locations .content div{
     min-width: 300px;
     min-height: 300px;
     background-color: black;
