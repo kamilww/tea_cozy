@@ -36,24 +36,27 @@ header {
     height: 69px;
     min-width: 100%;
     border-bottom: 1px solid seashell;
+    display: flex;
 }
 header img {
-    float: inline-start;
+    display: inline-flex;
+    justify-content: flex-start;
     height: 50px;
-    display: inline;
+    
 }
 
 header nav li{
-    float: inline-end;
-    display: inline;
+    display: inline-flex;
+    justify-content: flex-end;
+    margin: 5px;
 }
 
 /*mission section*/
 #mission {
     background-image: url("./../images/img-mission-background.webp");
-    max-height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
     margin: 40px;
-    max-width: 1200px;
     min-height: 700px;
     min-width: 1200px;
     display: flex;
@@ -90,26 +93,22 @@ header nav li{
 
 /*locations sections*/
 #locations {
-    height: 500px;
-    margin: 40px;
-    width: 1200px;
     text-align: center;
 }
 
 #locations .flexbox {
     background-image: url("./../images/img-locations-background.jpg");
-    max-height: 500px;
-    max-width: 1200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    min-width: 1200px;
     margin: 40px;
     display: flex;
     align-content: center;
-    justify-content: center;
-    z-index: 1;
+    justify-content: space-around;
 }
 #locations .flexbox div{
     margin: 15px 20px 20px 20px;
-    max-height: 300px;
-    max-width: 300px;
     min-height: 300px;
     min-width: 300px;
     background-color: black;
